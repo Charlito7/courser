@@ -1,1 +1,44 @@
 
+body{
+	position: relative;
+	width: 100%;
+	font-size: 16px;
+	color: black;
+	background-color: rgb(231,231,231);
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** Header **/
+
+.head{
+	background-color: #f6b319;
+	border-radius: 0;
+	border:0;
+
+}
+
+.nav-main
+{
+	display: hidden;
+}
+.nav-link
+{
+	text-align: center;
+	border-bottom: 1px white solid;
+}
+h2{
+	text-align: center;
+	color: green;
+
+}
+
+.row-fluid{
+	background-color: white;
+}
+p{
+	position: relative;
+	padding: 5px;
+	color: black;
+	font-size: 1.2em;
+	text-align: justify;
+}
