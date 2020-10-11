@@ -18,10 +18,13 @@ body{
 
 }
 
+.btn{
+	border:none;
+}
+
 /** Header **/
 
 .header{
-	background-color: #f6b319;
 	border-radius: 0;
 	border:0;
 	background-color: rgb(249,86,6);
@@ -37,7 +40,7 @@ body{
 .nav-link
 {
 	text-align: center;
-	border-bottom: 1px white solid;
+	
 }
 h2{
 	text-align: center;
@@ -52,7 +55,6 @@ h2{
 
 .navbar
 {
-	border-bottom: 1px green solid;
 	width: 100%;
 	padding: 2px;
 	margin: 0;
@@ -80,37 +82,92 @@ h2{
     margin-bottom: 10px;
     text-align: center;
     letter-spacing: 2px;
+    font-family: OpenSans,Arial,sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.5em;
-    color: #2B2B2B;
-     text-shadow: 0 0 2px rgba(0,0,0,0.5);
+    color: blue;
+    line-height: 44px;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
 }
 
+
+.our-course-title{
+	border-bottom: 3px rgb(249,86,6) solid;
+	margin-bottom: 10px;
+}
+
+
 .h3-tl{
-	text-align: center;
+   text-align: center;
    font-family: 'Kanit',sans-serif;
    font-weight: 500;
    font-size: 1em;
-   color: blue;
+   font-weight: 700;
+   color: rgb(31,31,31);
    letter-spacing: 5px;
    text-transform: capitalize;
 }
 
-button{
+
+.btn-plus{
 	background-color: rgb(249,86,6);
 }
 
-.btn-tl
+
+.btn-block-bottom-course{
+	border:none;
+	background-color: blue;
+}
+
+
+.btn-type-course
 {
 	position: absolute;
 	top: 5px;
 	left: 5px;
+	background-color: blue;
+	border:none;
+}
+
+.btn-all{
+	background-color: blue;
+	color: white;
+}
+.mb-10{
+	border-bottom: 10px;
 }
 .mb-30{
 	margin-bottom: 30px;
 }
 
-button{
-	border-bottom: 5px green solid;
+/*** whyus **/
+
+.whyus
+{
+	border: 1px rgb(204,204,204) solid;
+   background-color: rgb(204,204,204);
+}
+
+.whyus-elem
+{
+	background-color: inherit;
+}
+.whyus-container small
+{   display: block;
+    color: #1f1f1f;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 27px;
+    margin-top: 10px;
+}
+.whyus-container h4
+{
+	 margin-top: 10px;
+    text-align: center;
+    font-family: OpenSans,Arial,sans-serif;
+    color: #666;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
 }
